@@ -41,7 +41,6 @@ html, body , #__nuxt{
   margin: 0;
   font-size: 14px;
   padding: 0;
-  color: white;
 
   --radius: 5px;
 }

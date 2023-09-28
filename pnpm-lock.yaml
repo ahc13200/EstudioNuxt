@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@quasar/extras':
+        specifier: ^1.16.7
+        version: registry.npmjs.org/@quasar/extras@1.16.7
+      quasar:
+        specifier: ^2.12.7
+        version: registry.npmjs.org/quasar@2.12.7
       vue-router-better-scroller:
         specifier: ^0.0.0
         version: registry.npmjs.org/vue-router-better-scroller@0.0.0(vue-router@4.2.2)(vue@3.3.4)
@@ -1155,10 +1161,10 @@ packages:
     engines: {node: '>= 14'}
     dev: true
 
-  registry.npmjs.org/@intlify/shared@9.3.0-beta.19:
-    resolution: {integrity: sha512-+lhQggrLvlQ/O5OmIYAc9gadcYXMoaDi0Doef+X/f6TLZFr9PTMjOpBWmpwNNHi026e54jckntUn6GzqDtIN4w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@intlify/shared/-/shared-9.3.0-beta.19.tgz}
+  registry.npmjs.org/@intlify/shared@9.4.1:
+    resolution: {integrity: sha512-A51elBmZWf1FS80inf/32diO9DeXoqg9GR9aUDHFcfHoNDuT46Q+fpPOdj8jiJnSHSBh8E1E+6qWRhAZXdK3Ng==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@intlify/shared/-/shared-9.4.1.tgz}
     name: '@intlify/shared'
-    version: 9.3.0-beta.19
+    version: 9.4.1
     engines: {node: '>= 16'}
     dev: true
 
@@ -1847,6 +1853,12 @@ packages:
     name: '@polka/url'
     version: 1.0.0-next.21
     dev: true
+
+  registry.npmjs.org/@quasar/extras@1.16.7:
+    resolution: {integrity: sha512-nYF3gVE/si1YJ/D4qmAiHGwxoJIDCvTT8NI6ZmbTMPrur4J8xBKhfhfhyLoQ4k2jJZP6Rx0rUcB71FBNC2C8vQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@quasar/extras/-/extras-1.16.7.tgz}
+    name: '@quasar/extras'
+    version: 1.16.7
+    dev: false
 
   registry.npmjs.org/@rollup/plugin-alias@5.0.0(rollup@3.25.1):
     resolution: {integrity: sha512-l9hY5chSCjuFRPsnRm16twWBiSApl2uYFLsepQYwtBuAxNMQ/1dJqADld40P0Jkqm65GRTLy/AC6hnpVebtLsA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@rollup/plugin-alias/-/plugin-alias-5.0.0.tgz}
@@ -9364,6 +9376,13 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  registry.npmjs.org/quasar@2.12.7:
+    resolution: {integrity: sha512-JF2rb8u1RcXPpiaDh/RnO/5rFx7kABDMov0WnRI3acJ5s4TD2FyPrCmS7VgleLubDYRSsSAontJ6EijGz4BHig==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/quasar/-/quasar-2.12.7.tgz}
+    name: quasar
+    version: 2.12.7
+    engines: {node: '>= 10.18.1', npm: '>= 6.13.4', yarn: '>= 1.21.1'}
+    dev: false
+
   registry.npmjs.org/queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
@@ -11328,7 +11347,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@intlify/shared': registry.npmjs.org/@intlify/shared@9.3.0-beta.19
+      '@intlify/shared': registry.npmjs.org/@intlify/shared@9.4.1
       '@intlify/vue-i18n-bridge': registry.npmjs.org/@intlify/vue-i18n-bridge@0.8.0(vue-i18n@9.3.0-beta.17)
       '@intlify/vue-router-bridge': registry.npmjs.org/@intlify/vue-router-bridge@0.8.0(vue-router@4.2.2)(vue@3.3.4)
       ufo: registry.npmjs.org/ufo@1.1.2
